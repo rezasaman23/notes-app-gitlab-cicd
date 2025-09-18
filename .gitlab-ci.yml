@@ -35,4 +35,20 @@ docker-build:
   services:
     - docker:dind
   script:
-    - docker login -u gitlab-ci-token
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - docker build -t $DOCKER_IMAGE:$CI_COMMIT_SHA
+    - docker push $DOCKER_IMAGE:$CI_COMMIT_SHA
+  only:
+    - main
+
+  # Deploy to Staging
+deploy-staging:
+  stage: deploy
+  script:
+    - echo "Deploying $DOCKER_IMAGE:$CI_COMMIT_SHA to staging..."
+
+  # kubectl apply -f k8s or docker compose up
+  environment:
+    name: staging
+  only:
+    - main
