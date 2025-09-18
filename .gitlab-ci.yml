@@ -1,0 +1,38 @@
+stages:
+  - build
+  - test
+  - docker
+  - deploy
+
+variables:
+  DOCKER_IMAGE: registry.gitlab.com/engripaye/notes-app-gitlab-cicd
+
+
+  # Build Stage
+build_image:
+  stage: build
+  image: maven:3.9.4-eclipse-temurin-21
+  script:
+    - mvn clean package -DskipTests
+
+
+  # Test Stage
+test-job:
+  stage: test
+  image: maven:3.9.4-eclipse-temurin-21
+  script:
+    - mvn test
+  artifacts:
+    when: always
+    reports:
+      junit: target/surefire-reports/TEST-*.xml
+
+
+  # Docker Build & Push
+docker-build:
+  stage: docker
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker login -u gitlab-ci-token
